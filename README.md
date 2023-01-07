@@ -1,2 +1,2 @@
 # Cardiac_Events_ML
-Prediction of Heart attacks using ML
+Predictive analysis of cardiac events using Machine Learning techniques
