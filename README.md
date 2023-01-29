@@ -1,3 +1,6 @@
+<a href="https://github.com/kruthi-sb/Cardiac_Events_ML/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kruthi-sb/Cardiac_Events_ML" />
+</a>
 # Predictive Analysis of Cardiac Events using Machine Learning Techniques
 
 ## Overview
@@ -39,7 +42,7 @@ The code for this project is provided in the Jupyter notebook format. The notebo
 ## Author
 Kruhti S B
 - Email: kruthi.banakar@gmail.com
-- Linkenin: https://www.linkedin.com/in/kruthi-s-b-358956222/
+- Linkedin: https://www.linkedin.com/in/kruthi-s-b-358956222/
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
