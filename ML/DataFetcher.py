@@ -38,6 +38,12 @@ class DataFetcher:
     def get_target_names(self):
         return self.target_names
 
+    def get_X(self):
+        return self.X
+    
+    def get_y(self):
+        return self.y
+
 
 
 
