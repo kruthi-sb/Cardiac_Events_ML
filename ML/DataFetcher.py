@@ -8,7 +8,9 @@ class DataFetcher:
         self.full_dset.drop(["index"], axis = 1, inplace = True)
         self.y_s = self.full_dset["output"] #y holds target variable as a pandas Series.It has 300 rows.
         self.y_df = pd.DataFrame(self.y_s) 
-        self.X_df = self.full_dset.drop("output", axis=1, inplace = False)# X holds only the 13 feature columns by droping output column. 
+        self.X_df = self.full_dset.drop("output", axis=1, inplace = False)# X holds only the 13 feature columns by droping output column.
+        self.features = self.X_df.columns #features is a list of 13 feature names. 
+        self.target_names = ["diseased", "non_diseased"]
         self.X = self.X_df.values #X is a numpy array of shape (300,13)
         self.y = self.y_df.values #y is a numpy array of shape (300,1)
         from sklearn.utils import column_or_1d
@@ -29,6 +31,14 @@ class DataFetcher:
     
     def get_y_test(self):
         return self.y_test
+
+    def get_features(self):
+        return self.features
+
+    def get_target_names(self):
+        return self.target_names
+
+
 
 
 
