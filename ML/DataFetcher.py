@@ -15,19 +15,29 @@ class DataFetcher:
         self.y = self.y_df.values #y is a numpy array of shape (300,1)
         from sklearn.utils import column_or_1d
         self.y = column_or_1d(self.y, warn=False) #y is a numpy array of shape (300,)
+        #splitting the dataset into training, validation and testing sets.
         from sklearn.model_selection import train_test_split
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X, self.y, test_size=0.2, random_state=42)
-        #test_size = 0.2 means 20% of the dataset is used for testing and 80% for training.
-        #random_state is 42 => controls the randomness of the training and testing indices produced. 42 renders the same pair of sets everytime I run the code.
-    
+        #splitting the training set into training and validation sets.
+        self.X_train, self.X_val, self.y_train, self.y_val = train_test_split(self.X_train, self.y_train, test_size=0.2, random_state=42)
+
+
+        
+
     def get_X_train(self):
         return self.X_train
+
+    def get_X_val(self):
+        return self.X_val
     
     def get_X_test(self):
         return self.X_test
     
     def get_y_train(self):
         return self.y_train
+
+    def get_y_val(self):
+        return self.y_val
     
     def get_y_test(self):
         return self.y_test
