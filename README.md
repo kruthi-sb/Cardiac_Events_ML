@@ -11,16 +11,16 @@ The Heart Attack dataset used in this project is obtained from the UCI Machine L
 2. Exploratory Data Analysis
 3. Machine Learning Algorithms
 4. Model Evaluation using Basic Metrics
-  - Accuracy, Precision, Recall, F1 Score or Classification Report
-  - Confusion Matrix
+    - Accuracy, Precision, Recall, F1 Score or Classification Report
+    - Confusion Matrix
 5. Hyperparameter Tuning using Grid Search
 6. Model Evaluation using Advanced Metrics
-  - Basic Metrics or Classification Report
-  - Confusion Matrix
-  - k-Fold Cross Validation
-  - ROC
-  - PRC 
-  - Learning Curve
+    - Basic Metrics or Classification Report
+    - Confusion Matrix
+    - k-Fold Cross Validation
+    - ROC
+    - PRC 
+    - Learning Curve
 7. Feature Importance
 
 ## Algorithms Used
