@@ -45,6 +45,10 @@ class DataFetcher:
     
     def get_y(self):
         return self.y
+    
+    def get_X_df(self):
+        return self.X_df
+    
 
 
 
