@@ -52,8 +52,6 @@ The code for this project is provided in the Jupyter notebook format. The notebo
 
 ## Author
 Kruhti S B
-- Email: kruthi.banakar@gmail.com
-- Linkedin: https://www.linkedin.com/in/kruthi-s-b-358956222/
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
